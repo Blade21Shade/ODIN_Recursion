@@ -70,8 +70,10 @@ function mergeSort(array) {
     return sortedMerged;
 }
 
-let arr1 = [1, 3, 2, 4, 6, 5];
-let arr2 = [15, 9, 8, 2, 5, 14, 1, 7, 6, 3, 12, 11, 4, 10, 13]
+let arr1 = [1, 3, 2, 4, 6, 5]; // 1-6
+let arr2 = [15, 9, 8, 2, 5, 14, 1, 7, 6, 3, 12, 11, 4, 10, 13]; // 1-15
+let arr3 = [7, 1, 11, 3, 4, 6, 8, 1, 8, 10, 2, 9, 11, 5]; // Test for duplicate values; 1-11, 1 11 and 8 duplicated
 
 console.log(mergeSort(arr1));
 console.log(mergeSort(arr2));
+console.log(mergeSort(arr3));
